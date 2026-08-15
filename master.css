@@ -1,0 +1,61 @@
+.container {
+  width: 800px;
+  margin: auto;
+}
+.title {
+  text-align: center;
+  color: rgb(203, 78, 78);
+}
+.task-container {
+  width: 700px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+#task-input {
+  width: 500px;
+  margin-right: 30px;
+  padding: 10px;
+  border: none;
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 1px;
+}
+#task-input:focus {
+  outline: 1px solid red;
+  caret-color: red;
+}
+#add-button {
+  padding: 10px 20px;
+  color: white;
+  background-color: gray;
+  border: none;
+  border-radius: 10px;
+}
+#add-button:hover {
+  background-color: rgb(203, 78, 78);
+}
+.tasks-table {
+  width: 100%;
+}
+.tasks-table th {
+  background-color: red;
+  padding: 3px;
+  color: white;
+}
+.task td {
+  text-align: center;
+  padding: 3px;
+}
+.task td i {
+  color: red;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.completed {
+  text-decoration: line-through;
+}
+.tasks-table .task:nth-child(even) {
+  background-color: #f2f2f2;
+}
